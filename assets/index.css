@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", "Trebuchet MS", sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.header {
+  background-color: #0c3c78;
+  padding: 1% 0;
+  color: #fff;
+}
+
+.logoimg {
+  text-align: right;
+}
+
+.logotext {
+  margin: auto;
+}
+
+.nav-link {
+  width: calc(100% / 3);
+}
+
+.about {
+  background-color: #f5f5f5;
+  padding: 3vw 4vw 2vw 2vw;
+}
+
+h5 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.quick {
+  margin: 2vw;
+}
+
+.industry {
+  background-color: #fff;
+  text-align: center;
+  padding: 2vw;
+}
+
+.picz {
+  padding: 2vw 0 0 0;
+}
+
+.foot {
+  background-color: #d7d7d7;
+  padding: 1vw;
+}
+
+.footer-copyright {
+  background-color: grey;
+  color: #fff;
+}
+
+.new {
+  margin-left: 5px;
+  color: crimson;
+}
+
+.footer .row {
+  padding: 5vh 2vw;
+  background-color: #0c3c78;
+  color: #fff;
+}
+
+.footer p {
+  margin: auto;
+}
+
+.footer a {
+  color: white;
+}
+
+.copy {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.list-unstyled li a {
+  color: #fff;
+}
+
+.padding-height {
+  padding: 3vh 0;
+}
+
+.tab-content {
+  border: 1px solid #dee2e6;
+  border-top: none;
+  padding: 10px;
+}
+
+.tab-pane {
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+
+.btn-link {
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-images img {
+  height: 100px;
+  margin: 3%;
+}
+
+.cont {
+  margin: 20px 2vw;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.container .cont {
+  margin: 10px;
+}
+
+.tab-pane li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.caption {
+  text-align: center;
+}
+
+li p {
+  margin-bottom: 0;
+}
+
+.tab-pane::-webkit-scrollbar {
+  width: 5px;
+}
+
+.tab-pane::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.tab-pane::-webkit-scrollbar-thumb {
+  background: #0c3c78;
+}
+
+.gallery .col-lg-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abimg {
+  text-align: center;
+}
+
+.centre {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #0c3c78;
+  color: white;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.col-lg-4 p {
+  margin: 0;
+}
+
+.logotext h1 {
+  font-size: 2.2rem;
+}
+
+.logotext h2 {
+  font-size: 18px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.abtext p {
+  margin-bottom: 0;
+}
+
+.administrators {
+  margin: 2vh 0;
+}
+
+.admin-content {
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
+.tnp img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.tnp-desc {
+  display: flex;
+  align-items: center;
+}
+
+.tnp {
+  margin: 5vh 0;
+}
+
+.tnp-desc p {
+  margin-bottom: 2px;
+}
+
+.examinationSection {
+  padding: 5vh 0;
+}
+
+.examinationSection p {
+  margin-bottom: 2px;
+}
+
+.flox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webteam p {
+  margin-bottom: 2px;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.card-page-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.director-div {
+  margin: 25px auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-item {
+    margin: 0;
+  }
+
+  .carousel-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .accordion-images img {
+    width: 120px !important;
+    height: auto !important;
+    margin: 3%;
+  }
+
+  #gssoc-img {
+    width: 250px !important;
+    height: auto !important;
+  }
+
+  html {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .logopic {
+    width: 150px;
+  }
+
+  .logoimg {
+    text-align: center;
+  }
+
+  .logotext h1 {
+    font-size: 25px;
+  }
+
+  .logotext h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 90%;
+  }
+
+  li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  a {
+    font-size: 90%;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .form-inline {
+    display: none;
+  }
+
+  .logoimg {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .lst {
+    display: none;
+  }
+
+  .neepco {
+    width: 100px;
+  }
+
+  .ongc {
+    width: 110px;
+  }
+
+  .nbcc {
+    width: 140px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer .col-lg-3 {
+    margin-bottom: 5vh;
+  }
+
+  ul li {
+    margin-bottom: 0;
+  }
+
+  .footer .row {
+    padding-bottom: 0;
+  }
+
+  .col-lg-4 {
+    margin-bottom: 30px;
+  }
+}
