@@ -58,6 +58,43 @@ h5 {
   color: #fff;
 }
 
+.carousel-item img {
+  height: 400px; /* Adjust the maximum height of the images */
+  width: 300px; /* Maintain the aspect ratio of the images */
+}
+.principal-message {
+  border: 4px solid #02f813; /* Add a border to the principal's message section */
+  padding: 10px; /* Add padding for spacing */
+  margin-top: 20px; /* Add margin for spacing between carousel and principal's message */
+}
+
+.principal-image {
+ /* Adjust the size of the image (half of the container width) */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  border: 2px solid #1c1c1f; /* Add a border to the image */
+}
+
+.principal-image {
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  width: 80%; /* Ensure the image takes the full width of the container */
+  height: 90%;
+  border-radius: 50% /* Ensure the image takes the full height of the container */
+}
+
+.separator {
+  height: 2px; /* Adjust the height of the separator */
+  background-color: #ddd; /* Set the background color of the separator */
+  margin: 20px 0; /* Adjust the margin for spacing */
+}
+
+.principal-content {
+  padding: 10px; /* Add padding for spacing */
+}
+
+.principal-content h2 {
+  border-bottom: 3px solid #e20707; /* Add a border below the heading */
+}
+
 .new {
   margin-left: 5px;
   color: crimson;
@@ -120,14 +157,16 @@ h5 {
 }
 
 .cont {
-  margin: 20px 2vw;
-  border: 1px solid gray;
+  margin: 30px 2vw;
+  border: 2px solid rgb(128, 128, 128);
   border-radius: 5px;
   padding: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .container .cont {
-  margin: 10px;
+  margin:100px;
 }
 
 .tab-pane li {
